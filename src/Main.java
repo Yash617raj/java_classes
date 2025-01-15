@@ -1,5 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.printf("Hello and welcome!");
+        // Checking out number of bytes
+//        byte a=0,b=0;
+//        do{
+//            System.out.println(a++);
+//        }
+//        while (a!=b);
     }
 }
