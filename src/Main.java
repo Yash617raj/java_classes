@@ -56,27 +56,35 @@ public class Main {
         // sieve of Eratosthenes
 
         // Upper limit for the primes we want to check for.
-        int maxVal = 29;
-
-        // create a static sized (31) length arraylist of boolean with default value of true.
-        // We dont need to initialize the values if we use arraylist.
-        var isPrime = new ArrayList<Boolean>(Collections.nCopies(maxVal+1, true));
-
-        // c++ equivalent.
-        // auto x = vector<bool>(maxVal+1, true);
-
-        for (int num = 2; num <= maxVal; num++) {
-            if (!isPrime.get(num)) continue;
-            for (int multiple = num*2; multiple <= maxVal; multiple += num) {
-                isPrime.set(multiple, false);
-            }
-        }
-
-        // Printing primes
-        for (int num = 2; num <= maxVal; num++) {
-            if (isPrime.get(num)) System.out.println(num);
-        }
-
+//        int maxVal = 29;
+//
+//        // create a static sized (31) length arraylist of boolean with default value of true.
+//        // We don't need to initialize the values if we use arraylist.
+//        var isPrime = new ArrayList<Boolean>(Collections.nCopies(maxVal+1, true));
+//
+//        // c++ equivalent.
+//        // auto x = vector<bool>(maxVal+1, true);
+//
+//        for (int num = 2; num <= maxVal; num++) {
+//            if (!isPrime.get(num)) continue;
+//            for (int multiple = num*2; multiple <= maxVal; multiple += num) {
+//                isPrime.set(multiple, false);
+//            }
+//        }
+//
+//        // Printing primes
+//        for (int num = 2; num <= maxVal; num++) {
+//            if (isPrime.get(num)) System.out.println(num);
+//        }
+//
     }
 }
 // The name used for an ip address is known as domain
+
+// Golang is beginner-friendly and is generally used for backend  development
+// Rust is very efficient, but it is not beginner-friendly
+// Swift is used by apple for creating apps.it is very similar to kotlin
+
+// JDK(java development kit) -> JRE(java runtime environment) -> JVM(java virtual machine) -> JIT(Just in Time)
+
+// Java is much more efficient since it can allocate specific memory which helps in its efficiency
