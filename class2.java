@@ -10,5 +10,6 @@ public class class2 {
 
         long ans = (n * (n+1)) / 2;
         System.out.println(ans - sum);
+        sc.close();
     }
 }

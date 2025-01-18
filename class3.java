@@ -13,5 +13,6 @@ public class class3{
             else count = 0;
         }
         System.out.println(maxi+1);
+        sc.close();
     }
 }
